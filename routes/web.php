@@ -12,3 +12,4 @@
 */
 
 Route::get('/','Homecontroller@index');
+Route::get('/artikel/{id}','Homecontroller@get_by_id');
