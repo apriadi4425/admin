@@ -13,3 +13,7 @@
 
 Route::get('/','Homecontroller@index');
 Route::get('/artikel/{id}','Homecontroller@get_by_id');
+Route::post('/berita/cari','Homecontroller@get_by_name');
+
+
+Route::get('/add_berita','PostingController@add_view');
